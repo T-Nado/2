@@ -1,12 +1,12 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - BoxMover
     - CameraScript
     - PlayerScript
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Tilemap.Editor.dll:
-    - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
     - UnityEditor.Tilemaps.GridPalettes
@@ -14,8 +14,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TileDragAndDropManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    Unity.Timeline.Editor.dll:
-    - TimelineProjectSettings
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -49,10 +47,14 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 598}
+      Script: {instanceID: 600}
     - Class: 114
       Script: {instanceID: 11822}
     - Class: 114
@@ -62,13 +64,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14034}
     - Class: 114
-      Script: {instanceID: 14482}
+      Script: {instanceID: 14450}
     - Class: 114
-      Script: {instanceID: 15116}
+      Script: {instanceID: 14484}
     - Class: 114
-      Script: {instanceID: 15492}
+      Script: {instanceID: 14666}
     - Class: 114
-      Script: {instanceID: 19582}
+      Script: {instanceID: 14694}
+    - Class: 114
+      Script: {instanceID: 15122}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -452,6 +456,12 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
+      Hash: 66bca5cc6a18c5298ec75235e56a84d6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraScript
+  - hash:
+      serializedVersion: 2
       Hash: f336e086360abe49a3323e5f1583c35a
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -468,6 +478,18 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools
     className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 9e8426f8ab2fa53d18edaf4ce9b769e0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerScript
+  - hash:
+      serializedVersion: 2
+      Hash: e08dc097b830ae769e9cdd9b04e903ac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BoxMover
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -576,18 +598,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: ba8885765ad8fe055d2176fbae6efcd9
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerScript
-  - hash:
-      serializedVersion: 2
-      Hash: 66bca5cc6a18c5298ec75235e56a84d6
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CameraScript
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
